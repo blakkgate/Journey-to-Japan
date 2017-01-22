@@ -1,16 +1,38 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+	}
+p {
+	margin-top: 0;
+	text-align: center;
+	}
+
 h1 {
   text-align: center;
 }
-
 h2 {
   text-align: center;
 }
 
-p {
-  text-align: center;
-}
-
-ul {
-  font-size: 20px;
-  line-height: 30px;
-}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #B7A5DF;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #9685BA;
+	}
